@@ -4,7 +4,7 @@ import com.tlv.processor.Processor;
 
 public class TLVValidatorImpl implements TLVValidator{
 	
-	Processor[] processors = Processor.values();
+	private Processor[] processors = Processor.values();
 
 	@Override
 	public boolean isValidProcessor(String processor) {
