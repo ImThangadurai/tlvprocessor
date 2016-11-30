@@ -8,6 +8,10 @@ public abstract class Writer {
 	private PrintWriter writer;
 	
 	public Writer(){
+
+	}
+	
+	public void initialize(){
 		writer =  new PrintWriter(getOutputStream());
 	}
 	

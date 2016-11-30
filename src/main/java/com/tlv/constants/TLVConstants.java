@@ -8,5 +8,7 @@ public interface TLVConstants {
 	
 	int TAG_LENGTH = 6;
 	int LENGTH_LENGTH = 4;
+	
+	String TYPE_NOT_VALID ="Type not valid";
 
 }

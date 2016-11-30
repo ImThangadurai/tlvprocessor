@@ -8,6 +8,9 @@ public abstract class Reader {
 	private Scanner scanner;
 	
 	public Reader(){
+	}
+	
+	public void initialize(){
 		scanner = new Scanner(getInputStream());
 	}
 	
